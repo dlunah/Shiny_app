@@ -88,7 +88,7 @@ ui <- fluidPage(
            plotlyOutput("lineplot")
            #this tableoutput is for debugging (to see what is the reactive
            #function bringing)
-           #tableOutput("test1")
+           tableOutput("test1")
         )
     )
 )
