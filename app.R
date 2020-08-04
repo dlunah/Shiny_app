@@ -85,10 +85,10 @@ ui <- fluidPage(
         # Show a plot of the generated distribution
         mainPanel(
             h3(textOutput("selected_state"), align="center"),
-           plotlyOutput("lineplot"),
+           plotlyOutput("lineplot")
            #this tableoutput is for debugging (to see what is the reactive
            #function bringing)
-           tableOutput("test1")
+           #tableOutput("test1")
         )
     )
 )
