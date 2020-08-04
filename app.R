@@ -87,8 +87,8 @@ ui <- fluidPage(
         #function bringing)
         mainPanel(
             h3(textOutput("selected_state"), align="center"),
-            plotlyOutput("lineplot"),
-            tableOutput("test1")
+            plotlyOutput("lineplot")
+            #tableOutput("test1")
         )
     )
 )
