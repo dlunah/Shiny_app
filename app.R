@@ -86,8 +86,7 @@ ui <- fluidPage(
         mainPanel(
             h3(textOutput("selected_state"), align="center"),
            plotlyOutput("lineplot"),
-           #this tableoutput is for debugging (to see what is the reactive
-           #function bringing)
+           #this tableoutput is for debugging (to see what is the reactive function bringing)
            tableOutput("test1")
         )
     )
